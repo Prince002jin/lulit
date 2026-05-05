@@ -27,7 +27,7 @@ public class OtpService {
     private final OtpDeliveryService otpDeliveryService;
 
     @Transactional
-    public void sendOtp(String identifier) {
+    public String sendOtp(String identifier) {
         OtpVerification existing = otpVerificationRepository.findByIdentifier(identifier).orElse(null);
         LocalDateTime now = LocalDateTime.now();
 
@@ -52,6 +52,8 @@ public class OtpService {
             logger.warn("OTP delivery failed for {}: {}", identifier, ex.getMessage());
             throw new ApiException("Failed to deliver OTP. Please try again.");
         }
+
+        return rawOtp;
     }
 
     @Transactional

@@ -40,8 +40,9 @@ server:
 app:
   otp:
     brand-name: ${OTP_BRAND_NAME:Lulit}
-    email-provider: ${OTP_EMAIL_PROVIDER:resend}
+    email-provider: ${OTP_EMAIL_PROVIDER:console}
     sms-provider: ${OTP_SMS_PROVIDER:console}
+    expose-in-response: ${OTP_EXPOSE_IN_RESPONSE:false}
   security:
     aes-key: ${AES_KEY:0123456789abcdef0123456789abcdef}
     jwt-secret: ${JWT_SECRET_BASE64:VGhpc0lzQVN1ZmZpY2llbnRseUxvbmdCYXNlNjRTZWNyZXRLZXlGb3JMVUxJVA==}

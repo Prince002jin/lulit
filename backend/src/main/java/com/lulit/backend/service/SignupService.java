@@ -14,6 +14,7 @@ import com.lulit.backend.repository.SignupProgressRepository;
 import com.lulit.backend.repository.UserRepository;
 import com.lulit.backend.util.CryptoUtil;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,6 +29,9 @@ public class SignupService {
     private final CryptoUtil cryptoUtil;
     private final PasswordEncoder passwordEncoder;
 
+    @Value("${app.otp.expose-in-response:false}")
+    private boolean exposeOtpInResponse;
+
     @Transactional
     public ApiMessageResponse requestEmailOtp(EmailOtpRequestDto request) {
         String email = request.email().trim().toLowerCase();
@@ -39,8 +43,8 @@ public class SignupService {
         progress.setEmail(email);
         signupProgressRepository.save(progress);
 
-        otpService.sendOtp(emailIdentifier(email));
-        return new ApiMessageResponse("Email OTP sent");
+        String otp = otpService.sendOtp(emailIdentifier(email));
+        return new ApiMessageResponse(exposeOtpInResponse ? "Email OTP sent: " + otp : "Email OTP sent");
     }
 
     @Transactional
@@ -73,8 +77,8 @@ public class SignupService {
         progress.setPhone(normalizedPhone);
         signupProgressRepository.save(progress);
 
-        otpService.sendOtp(phoneIdentifier(normalizedPhone));
-        return new ApiMessageResponse("Phone OTP sent");
+        String otp = otpService.sendOtp(phoneIdentifier(normalizedPhone));
+        return new ApiMessageResponse(exposeOtpInResponse ? "Phone OTP sent: " + otp : "Phone OTP sent");
     }
 
     @Transactional

@@ -1,0 +1,287 @@
+{
+  "challenges": {},
+  "usernames": {
+    "lalitkishore07": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802"
+  },
+  "identities": {
+    "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802": {
+      "walletAddress": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802",
+      "username": "lalitkishore07",
+      "encryptionPublicKey": "vNTOEQXW5pkrxg0Rg3mX24KjNIIZST4FZHiIdyNB4CU=",
+      "signingPublicKey": "wpJS2gVDuya3h8PY+Cj+YTS8Befq0cJiIkvbMN4lp6c=",
+      "oneTimePrekeys": [
+        {
+          "id": "56e9a2c5-84cf-42d5-8c3e-91ad2a7164d7",
+          "boxPublicKey": "VTBJPErPee50jT+dfYAuEDWiEsrgknzqcTOqN9lK5VM="
+        },
+        {
+          "id": "c8b212d4-f7d8-44fb-a0b8-19d8ccbfa3a2",
+          "boxPublicKey": "0sXj+XQEzb6o2fwmHK+PElv/h0jDEMaZ/Yx2377dDjY="
+        },
+        {
+          "id": "3b941b8b-39ff-46fb-a2d2-391516e5b67e",
+          "boxPublicKey": "zh9WeHMdikkeuHIcYKq7btgn96ddYMRTm+eX4Fd7hXM="
+        },
+        {
+          "id": "dcb1b73e-7f93-4898-9d69-047e627f6f66",
+          "boxPublicKey": "oBbkaU553sOIkjsqJPggvqMotK7bSzaTQhB7iubWvW8="
+        },
+        {
+          "id": "54b949e7-cde1-41d2-9132-27567716e877",
+          "boxPublicKey": "1rLJGyVwYvK5C4EB34J6W818zPsnJ/ZCii2KPy4PNhI="
+        },
+        {
+          "id": "b48c1691-9244-4dc3-92c2-f27dfe5e6f9c",
+          "boxPublicKey": "PZE8kd5FNWGRcf8zCGItBKVmKRD3+pwQogazHeFXFS4="
+        }
+      ],
+      "updatedAt": "2026-05-05T08:00:05.495Z"
+    }
+  },
+  "messages": [],
+  "db": {
+    "challenges": {},
+    "usernames": {
+      "lalitkishore07": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802"
+    },
+    "identities": {
+      "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802": {
+        "walletAddress": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802",
+        "username": "lalitkishore07",
+        "encryptionPublicKey": "vNTOEQXW5pkrxg0Rg3mX24KjNIIZST4FZHiIdyNB4CU=",
+        "signingPublicKey": "wpJS2gVDuya3h8PY+Cj+YTS8Befq0cJiIkvbMN4lp6c=",
+        "oneTimePrekeys": [
+          {
+            "id": "56e9a2c5-84cf-42d5-8c3e-91ad2a7164d7",
+            "boxPublicKey": "VTBJPErPee50jT+dfYAuEDWiEsrgknzqcTOqN9lK5VM="
+          },
+          {
+            "id": "c8b212d4-f7d8-44fb-a0b8-19d8ccbfa3a2",
+            "boxPublicKey": "0sXj+XQEzb6o2fwmHK+PElv/h0jDEMaZ/Yx2377dDjY="
+          },
+          {
+            "id": "3b941b8b-39ff-46fb-a2d2-391516e5b67e",
+            "boxPublicKey": "zh9WeHMdikkeuHIcYKq7btgn96ddYMRTm+eX4Fd7hXM="
+          },
+          {
+            "id": "dcb1b73e-7f93-4898-9d69-047e627f6f66",
+            "boxPublicKey": "oBbkaU553sOIkjsqJPggvqMotK7bSzaTQhB7iubWvW8="
+          },
+          {
+            "id": "54b949e7-cde1-41d2-9132-27567716e877",
+            "boxPublicKey": "1rLJGyVwYvK5C4EB34J6W818zPsnJ/ZCii2KPy4PNhI="
+          },
+          {
+            "id": "b48c1691-9244-4dc3-92c2-f27dfe5e6f9c",
+            "boxPublicKey": "PZE8kd5FNWGRcf8zCGItBKVmKRD3+pwQogazHeFXFS4="
+          }
+        ],
+        "updatedAt": "2026-05-05T07:20:54.166Z"
+      }
+    },
+    "messages": [],
+    "db": {
+      "challenges": {},
+      "usernames": {
+        "lalitkishore07": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802"
+      },
+      "identities": {
+        "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802": {
+          "walletAddress": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802",
+          "username": "lalitkishore07",
+          "encryptionPublicKey": "vNTOEQXW5pkrxg0Rg3mX24KjNIIZST4FZHiIdyNB4CU=",
+          "signingPublicKey": "wpJS2gVDuya3h8PY+Cj+YTS8Befq0cJiIkvbMN4lp6c=",
+          "oneTimePrekeys": [
+            {
+              "id": "56e9a2c5-84cf-42d5-8c3e-91ad2a7164d7",
+              "boxPublicKey": "VTBJPErPee50jT+dfYAuEDWiEsrgknzqcTOqN9lK5VM="
+            },
+            {
+              "id": "c8b212d4-f7d8-44fb-a0b8-19d8ccbfa3a2",
+              "boxPublicKey": "0sXj+XQEzb6o2fwmHK+PElv/h0jDEMaZ/Yx2377dDjY="
+            },
+            {
+              "id": "3b941b8b-39ff-46fb-a2d2-391516e5b67e",
+              "boxPublicKey": "zh9WeHMdikkeuHIcYKq7btgn96ddYMRTm+eX4Fd7hXM="
+            },
+            {
+              "id": "dcb1b73e-7f93-4898-9d69-047e627f6f66",
+              "boxPublicKey": "oBbkaU553sOIkjsqJPggvqMotK7bSzaTQhB7iubWvW8="
+            },
+            {
+              "id": "54b949e7-cde1-41d2-9132-27567716e877",
+              "boxPublicKey": "1rLJGyVwYvK5C4EB34J6W818zPsnJ/ZCii2KPy4PNhI="
+            },
+            {
+              "id": "b48c1691-9244-4dc3-92c2-f27dfe5e6f9c",
+              "boxPublicKey": "PZE8kd5FNWGRcf8zCGItBKVmKRD3+pwQogazHeFXFS4="
+            }
+          ],
+          "updatedAt": "2026-05-05T07:17:24.803Z"
+        }
+      },
+      "messages": [],
+      "db": {
+        "challenges": {},
+        "usernames": {
+          "lalitkishore07": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802"
+        },
+        "identities": {
+          "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802": {
+            "walletAddress": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802",
+            "username": "lalitkishore07",
+            "encryptionPublicKey": "vNTOEQXW5pkrxg0Rg3mX24KjNIIZST4FZHiIdyNB4CU=",
+            "signingPublicKey": "wpJS2gVDuya3h8PY+Cj+YTS8Befq0cJiIkvbMN4lp6c=",
+            "oneTimePrekeys": [
+              {
+                "id": "56e9a2c5-84cf-42d5-8c3e-91ad2a7164d7",
+                "boxPublicKey": "VTBJPErPee50jT+dfYAuEDWiEsrgknzqcTOqN9lK5VM="
+              },
+              {
+                "id": "c8b212d4-f7d8-44fb-a0b8-19d8ccbfa3a2",
+                "boxPublicKey": "0sXj+XQEzb6o2fwmHK+PElv/h0jDEMaZ/Yx2377dDjY="
+              },
+              {
+                "id": "3b941b8b-39ff-46fb-a2d2-391516e5b67e",
+                "boxPublicKey": "zh9WeHMdikkeuHIcYKq7btgn96ddYMRTm+eX4Fd7hXM="
+              },
+              {
+                "id": "dcb1b73e-7f93-4898-9d69-047e627f6f66",
+                "boxPublicKey": "oBbkaU553sOIkjsqJPggvqMotK7bSzaTQhB7iubWvW8="
+              },
+              {
+                "id": "54b949e7-cde1-41d2-9132-27567716e877",
+                "boxPublicKey": "1rLJGyVwYvK5C4EB34J6W818zPsnJ/ZCii2KPy4PNhI="
+              },
+              {
+                "id": "b48c1691-9244-4dc3-92c2-f27dfe5e6f9c",
+                "boxPublicKey": "PZE8kd5FNWGRcf8zCGItBKVmKRD3+pwQogazHeFXFS4="
+              }
+            ],
+            "updatedAt": "2026-05-05T07:15:40.371Z"
+          }
+        },
+        "messages": [],
+        "db": {
+          "challenges": {},
+          "usernames": {
+            "lalitkishore07": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802"
+          },
+          "identities": {
+            "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802": {
+              "walletAddress": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802",
+              "username": "lalitkishore07",
+              "encryptionPublicKey": "vNTOEQXW5pkrxg0Rg3mX24KjNIIZST4FZHiIdyNB4CU=",
+              "signingPublicKey": "wpJS2gVDuya3h8PY+Cj+YTS8Befq0cJiIkvbMN4lp6c=",
+              "oneTimePrekeys": [
+                {
+                  "id": "56e9a2c5-84cf-42d5-8c3e-91ad2a7164d7",
+                  "boxPublicKey": "VTBJPErPee50jT+dfYAuEDWiEsrgknzqcTOqN9lK5VM="
+                },
+                {
+                  "id": "c8b212d4-f7d8-44fb-a0b8-19d8ccbfa3a2",
+                  "boxPublicKey": "0sXj+XQEzb6o2fwmHK+PElv/h0jDEMaZ/Yx2377dDjY="
+                },
+                {
+                  "id": "3b941b8b-39ff-46fb-a2d2-391516e5b67e",
+                  "boxPublicKey": "zh9WeHMdikkeuHIcYKq7btgn96ddYMRTm+eX4Fd7hXM="
+                },
+                {
+                  "id": "dcb1b73e-7f93-4898-9d69-047e627f6f66",
+                  "boxPublicKey": "oBbkaU553sOIkjsqJPggvqMotK7bSzaTQhB7iubWvW8="
+                },
+                {
+                  "id": "54b949e7-cde1-41d2-9132-27567716e877",
+                  "boxPublicKey": "1rLJGyVwYvK5C4EB34J6W818zPsnJ/ZCii2KPy4PNhI="
+                },
+                {
+                  "id": "b48c1691-9244-4dc3-92c2-f27dfe5e6f9c",
+                  "boxPublicKey": "PZE8kd5FNWGRcf8zCGItBKVmKRD3+pwQogazHeFXFS4="
+                }
+              ],
+              "updatedAt": "2026-05-05T07:13:51.447Z"
+            }
+          },
+          "messages": [],
+          "db": {
+            "challenges": {},
+            "usernames": {
+              "lalitkishore07": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802"
+            },
+            "identities": {
+              "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802": {
+                "walletAddress": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802",
+                "username": "lalitkishore07",
+                "encryptionPublicKey": "vNTOEQXW5pkrxg0Rg3mX24KjNIIZST4FZHiIdyNB4CU=",
+                "signingPublicKey": "wpJS2gVDuya3h8PY+Cj+YTS8Befq0cJiIkvbMN4lp6c=",
+                "oneTimePrekeys": [
+                  {
+                    "id": "56e9a2c5-84cf-42d5-8c3e-91ad2a7164d7",
+                    "boxPublicKey": "VTBJPErPee50jT+dfYAuEDWiEsrgknzqcTOqN9lK5VM="
+                  },
+                  {
+                    "id": "c8b212d4-f7d8-44fb-a0b8-19d8ccbfa3a2",
+                    "boxPublicKey": "0sXj+XQEzb6o2fwmHK+PElv/h0jDEMaZ/Yx2377dDjY="
+                  },
+                  {
+                    "id": "3b941b8b-39ff-46fb-a2d2-391516e5b67e",
+                    "boxPublicKey": "zh9WeHMdikkeuHIcYKq7btgn96ddYMRTm+eX4Fd7hXM="
+                  },
+                  {
+                    "id": "dcb1b73e-7f93-4898-9d69-047e627f6f66",
+                    "boxPublicKey": "oBbkaU553sOIkjsqJPggvqMotK7bSzaTQhB7iubWvW8="
+                  },
+                  {
+                    "id": "54b949e7-cde1-41d2-9132-27567716e877",
+                    "boxPublicKey": "1rLJGyVwYvK5C4EB34J6W818zPsnJ/ZCii2KPy4PNhI="
+                  },
+                  {
+                    "id": "b48c1691-9244-4dc3-92c2-f27dfe5e6f9c",
+                    "boxPublicKey": "PZE8kd5FNWGRcf8zCGItBKVmKRD3+pwQogazHeFXFS4="
+                  }
+                ],
+                "updatedAt": "2026-05-05T07:11:41.611Z"
+              }
+            },
+            "messages": [],
+            "db": {
+              "challenges": {
+                "0x0000000000000000000000000000000000000001": {
+                  "nonce": "8c4755bd8d50f08b1409d5fdae4bb399",
+                  "issuedAt": 1777952239866
+                }
+              },
+              "usernames": {},
+              "identities": {},
+              "messages": []
+            },
+            "payload": {
+              "sub": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802",
+              "typ": "wallet-auth"
+            }
+          },
+          "payload": {
+            "sub": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802",
+            "typ": "wallet-auth"
+          }
+        },
+        "payload": {
+          "sub": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802",
+          "typ": "wallet-auth"
+        }
+      },
+      "payload": {
+        "sub": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802",
+        "typ": "wallet-auth"
+      }
+    },
+    "payload": {
+      "sub": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802",
+      "typ": "wallet-auth"
+    }
+  },
+  "payload": {
+    "sub": "0x538c3f7b45a3fcdb25e53e68fc37ecc7f6729802",
+    "typ": "wallet-auth"
+  }
+}

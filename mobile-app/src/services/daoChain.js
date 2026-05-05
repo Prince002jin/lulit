@@ -268,6 +268,10 @@ async function signDaoMessage(message) {
   return String(signature || "");
 }
 
+export async function signWalletMessage(message) {
+  return signDaoMessage(message);
+}
+
 export async function disconnectWallet() {
   if (wcProvider?.disconnect) {
     await wcProvider.disconnect();

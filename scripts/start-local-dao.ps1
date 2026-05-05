@@ -20,6 +20,17 @@ function Get-ListenerPid($port) {
   return $null
 }
 
+function Wait-ForPort($port, $timeoutSeconds = 30) {
+  $deadline = (Get-Date).AddSeconds($timeoutSeconds)
+  while ((Get-Date) -lt $deadline) {
+    if (Get-ListenerPid $port) {
+      return $true
+    }
+    Start-Sleep -Milliseconds 500
+  }
+  return [bool](Get-ListenerPid $port)
+}
+
 function Start-HardhatNode {
   $listenerPid = Get-ListenerPid 8545
   if (-not $listenerPid) {
@@ -131,11 +142,10 @@ Restart-AiService
 Restart-Frontend
 Restart-Backend $deployment
 
-Start-Sleep -Seconds 8
-$p5173 = [bool](Get-ListenerPid 5173)
-$p8080 = [bool](Get-ListenerPid 8080)
-$p8545 = [bool](Get-ListenerPid 8545)
-$p9000 = [bool](Get-ListenerPid 9000)
+$p8545 = Wait-ForPort 8545 10
+$p5173 = Wait-ForPort 5173 30
+$p9000 = Wait-ForPort 9000 45
+$p8080 = Wait-ForPort 8080 60
 
 Write-Host ""
 Write-Host "Local DAO stack status:"
